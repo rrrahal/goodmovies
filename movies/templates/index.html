@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset="utf-8">
+  {% load static %}
+  <link rel='stylesheet' href="{% static "style.css" %}">
+  <title> Assista um bom filme </title>
+</head>
+<body>
+  <div class='container'>
+    <div class='split left'>
+      <h1> Cinema </h1>
+      <a href='{% url 'cinema'%}' class='button'> Read More </a>
+    </div>
+    <div class='split right'>
+      <h1> Netflix </h1>
+      <a href="#" class='button'> Read More </a>
+    </div>
+  </div>
+  {% load static from staticfiles %}
+  <script src='{% static "main.js" %}'> </script>
+</body>
+</html>

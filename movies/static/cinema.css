@@ -1,0 +1,22 @@
+html, body {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", "Arial", sans-serif;
+}
+
+
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1em;
+}
+
+.top-menu {
+  grid-column: 1/4;
+  height: 4em;
+  background-color: black;
+}
+
+.movie-text {
+    position: relative;
+    align-self: center;
+}
